@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D 模型 - 手机姿态控制</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin: 0; overflow: hidden; }
+    canvas { display: block; }
+    #btn {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 10;
+      padding: 10px;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <button id="btn">点击启用传感器</button>
+  <!-- ✅ 强制防缓存 -->
+  <script type="module" src="main.js?v=2"></script>
+</body>
+</html>
